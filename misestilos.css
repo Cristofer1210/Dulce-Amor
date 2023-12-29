@@ -1,0 +1,55 @@
+h1{
+    color: lightcoral;
+}
+body h1{
+    font-size: 40px;
+    font-style: italic;
+     
+}
+.imagenchica{
+    width: 250px;
+    height: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    background-color: lightcoral;
+    list-style: none;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    font-style: italic;
+}
+.imagenpeque{
+    width: 220px;
+    height: 220px;
+}
+.imagenpeque2{
+    width: 220px;
+    height: 220px;
+}
+.imagenpeque3{
+    width: 220px;
+    height: 220px;
+}
+.imagenpeque4{
+    width: 220px;
+    height: 220px; 
+}
+.imagenpeque5{
+    width: 220px;
+    height: 220px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcoral;
+}
