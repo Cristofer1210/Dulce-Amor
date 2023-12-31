@@ -1,0 +1,42 @@
+<!-- crear un formulario para la página-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Formulario de Registro</h1>
+        <form method="post">
+            <div class="name">
+                <input type="text" required>
+                <label>Nombre: </label>
+            </div>
+            <div class="apellido">
+                <input type="text" required>
+                <label>Apellido: </label>
+            </div>
+            <div class="edad">
+                <input type="number">
+                <label>Edad: </label>
+            </div>
+            <div class="sexo">
+                <input type="radio" id="masculino" name="genero" value="Masculino">
+                <label for="masculino">Masculino: </label><br>
+                <input type="radio" id="femenino" name="genero" value="Femenino">
+                <label for="femenino">Femenino: </label><br>
+            </div>
+            <div class="localidad">
+                <input type="text">
+                <label>Localidad: </label>
+            </div>
+        </form>
+        <input type="submit" value="Registro" onclick="volverInicio()">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

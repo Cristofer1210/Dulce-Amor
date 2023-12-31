@@ -1,0 +1,28 @@
+h1{
+    color:lightcoral
+}
+body h1{
+    font-size: 40px;
+    font-style:italic;
+     
+}
+.imagenchica{
+    width: 250px;
+    height: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.titulosecundario{
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+}
+.imagenchica1{
+    width: 330px;
+    height: 300px;
+}
+article ul{
+    font-size: 20px;
+}
